@@ -1,0 +1,24 @@
+[
+  {
+    "period": "Sep. 2023 – Feb. 2025",
+    "start": "2023-09-01",
+    "end": "2025-02-28",
+    "title": "Research Assistant",
+    "company": "NCKU: Advanced Computer Vision Lab",
+    "bullets": [
+      "Achieved 0.84 F1-score in floodwater prediction on 1,900+ SAR & optical satellite images by designing and benchmarking deep learning architectures (UNet, CBAM-UNet, Swin Transformer) with feature engineering",
+      "Developed advanced computer vision applications for defect detection and predictive modeling (see Projects section)"
+    ]
+  },
+  {
+    "period": "Jul. – Sep. 2024",
+    "start": "2024-07-01",
+    "end": "2024-09-30",
+    "title": "Intern – Risk Consultant",
+    "company": "KPMG",
+    "bullets": [
+      "Processed and analyzed 1,000,000+ transaction records using SQL queries and Python scripts from 2 major banks, ensuring efficient large-scale data retrieval and preprocessing",
+      "Improved suspicious transaction detection by reducing false positives by 16% through implementing and optimizing tree-based algorithms (e.g., decision trees, random forests)"
+    ]
+  }
+]

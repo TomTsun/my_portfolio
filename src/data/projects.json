@@ -1,0 +1,18 @@
+[
+  {
+    "name": "AI Enhancing Substrate Manufacturing Yield",
+    "description": "Automated PCB data pipeline cut preprocessing 36% and lifted yield 12%.",
+    "tags": ["Python", "SQL", "CI/CD"]
+  },
+  {
+    "name": "Defect Detection for Product Quality Assurance",
+    "description": "Multimodal inspection raised QA accuracy 16% while trimming cycle time 80%.",
+    "tags": ["PyQt", "C++"],
+    "links": { "source": "https://ieeexplore.ieee.org/document/10808400" }
+  },
+  {
+    "name": "Travel Itinerary Recommendation System",
+    "description": "RL recommender boosted cold-start trip suggestions by 18% over baseline.",
+    "tags": ["Python"]
+  }
+]
