@@ -8,7 +8,7 @@
     "name": "Defect Detection for Product Quality Assurance",
     "description": "Multimodal inspection raised QA accuracy 16% while trimming cycle time 80%.",
     "tags": ["PyQt", "C++"],
-    "links": { "source": "https://ieeexplore.ieee.org/document/10808400" }
+    "links": { "source_paper1": "https://ieeexplore.ieee.org/document/10808400", "source_paper2": "https://ieeexplore.ieee.org/document/10930135" }
   },
   {
     "name": "Travel Itinerary Recommendation System",

@@ -98,18 +98,41 @@ export default function Projects() {
                       </span>
                     ))}
                   </div>
-                  {(p.links?.live || p.links?.source) && (
-                    <div className="mt-auto flex gap-4 pt-4 text-sm text-blue-600">
-                      {p.links?.live && (
-                        <a href={p.links.live} target="_blank" rel="noopener noreferrer" className="font-medium">
+                                                      {p.links && Object.keys(p.links).length > 0 && (
+                    <div className="mt-auto flex flex-wrap gap-3 pt-4 text-sm">
+                      {/* The links of live demo */}
+                      {p.links.live && (
+                        <a
+                          href={p.links.live}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-flex items-center font-medium text-blue-600 hover:text-blue-800"
+                        >
                           Live ↗
                         </a>
                       )}
-                      {p.links?.source && (
-                        <a href={p.links.source} target="_blank" rel="noopener noreferrer" className="font-medium">
-                          Source ↗
-                        </a>
-                      )}
+
+                      {/* The links of source papers */}
+                      <div className="flex flex-wrap gap-2">
+                        {Object.entries(p.links)
+                          .filter(([key]) => key.startsWith('source'))
+                          .map(([key, url]) => {
+                            const displayName = key.split('_')[1];
+                            if (!displayName) return null;
+                            
+                            return (
+                              <a
+                                key={key}
+                                href={url}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="inline-flex items-center rounded bg-blue-50 px-2.5 py-1 text-xs font-medium text-blue-600 ring-1 ring-inset ring-blue-600/20 hover:bg-blue-100 hover:text-blue-800"
+                              >
+                                {displayName} ↗
+                              </a>
+                            );
+                          })}
+                      </div>
                     </div>
                   )}
                 </article>
